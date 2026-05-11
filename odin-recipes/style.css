@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(227, 169, 60);
+    justify-content: space-between;
+    border-radius: 16px;
+    border: 11px;
+    border-color: black;
+    padding: 1px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 14px;
+    margin-right: 11px;
+    margin-top: 25px;
+    
+}
+
+a {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(65, 49, 19);
+
+}
+
+h1 {
+    margin-left: 11px;
+}
+
+.footer {
+    text-align: center;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(120, 92, 70);
+    border-radius: 11px;
+}
+
+.content {
+    margin-top: 11px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: orange;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    margin-bottom: 11px;
+
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    padding: 11px 11px;
+    border: 3px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(66, 53, 30);
+    width: 655px;
+    gap: 10px;
+}
+
+.text-two {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 11px;
+
+}
+
+.tree {
+    display: flex;
+    padding: 11px;
+    background-color: orange;
+    margin-top: 8px;
+    border: 3px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(66, 53, 30);
+    justify-content: center;
+}
